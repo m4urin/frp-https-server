@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Brief Description of the script
-echo "This script automates the setup of FRP services with required packages and configurations."
+echo "This script automates the setup of FRP services with required packages and configurations to serve HTTPS content for your domain."
 
 # Inform user about required packages
 echo "The following packages are required: openssl, certbot, nginx"

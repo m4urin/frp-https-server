@@ -22,11 +22,11 @@ The primary goal of this project is to alleviate the complexities and time consu
 ## Installation
 Clone the repository to your local machine:
 ```sh
-git clone https://github.com/m4urin/https-tunnel-server.git
+git clone https://github.com/m4urin/frp-https-server.git
 ```
-Navigate to the cloned directory and run `install.sh`:
+Navigate to the cloned directory and run `setup.sh`:
 ```sh
-cd https-tunnel-server && sudo bash install.sh
+cd https-tunnel-server && sudo bash setup.sh
 ```
 
 This will take you through the process of setting up the server and the creation of the certificates.
@@ -112,7 +112,8 @@ sudo systemctl reload frpc
 python app.py
 ```
 
-
+## Future work
+- add subdomains
 
 ## Troubleshooting
 If you encounter any issues during installation or usage, please refer to the FRP [official documentation](https://github.com/fatedier/frp) and the Nginx [official documentation](http://nginx.org/en/docs/).

@@ -1,7 +1,7 @@
 # Reverse Proxy HTTPS Server Setup Assistant
 
 ## Introduction
-This project provides an automated and interactive installer aimed at simplifying the process of setting up a secure HTTPS server with certificates. The script is especially useful for serving HTTPS webpages from a local server situated behind a NAT or firewall.
+This small project provides an automated and interactive installer aimed at simplifying the process of setting up a secure HTTPS server with certificates. The script is especially useful for serving HTTPS webpages from a local server situated behind a NAT or firewall.
 
 Setting up an HTTPS server over `frp` can be complex due to the requirement for the client to hold private certificate keys. However, transferring these keys from the server to the client is not optimal, as it's preferable for the server to handle HTTPS. To maintain a secure connection between the client and `frp` server, a TLS connection is used with a secret token. While `frp` can serve the websites in HTTPS, Nginx is utilized as an additional proxy for handling HTTPS with the obtained certificates.
 
